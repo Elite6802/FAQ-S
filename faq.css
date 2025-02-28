@@ -1,0 +1,62 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #030616;
+    margin: auto;
+    background-color: #F8FAFC;
+}
+/* Styling for the headers and the header section */
+.headerSection {
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.headerSection > p {
+    padding: 3px 10px 15px 10px ;
+}
+h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: 36px;
+    font-weight: 600;
+    font-style: normal;
+
+}
+h2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: 24px;
+    font-weight: 600;
+    font-style: normal;
+    padding: 30px 0px 10px 0px;
+}
+
+/* Styling for the link texts */
+a {
+    text-decoration: none;
+    color: #4E80EE;
+}
+
+.content {
+    width: 50%;
+    margin-left: 25%;
+    padding: 30px;
+}
+li {
+    padding: 10px;
+}
+#aboveHr {
+    padding: 0px 0px 30px 0px;
+}
+
+/* Responsive design for smaller screen */
+@media(max-width:640px) {
+
+    .content {
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+        font-size: 14px;
+    }
+}
